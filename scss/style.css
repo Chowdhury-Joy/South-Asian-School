@@ -423,16 +423,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .learning .learning-left {
-  width: 40%;
+  width: 100%;
   position: relative;
 }
 
 .learning .learning-left img {
-  width: 100%;
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  height: 100%;
 }
 
 .learning .learning-left .learningTxt {
@@ -459,8 +463,12 @@
   width: 350px;
 }
 
+.learning .learning-left .learningTxt .lrng-txt-nm {
+  margin-top: 20px;
+  font-family: 'Lora', serif;
+}
+
 .learning .learning-right {
-  width: 60%;
   background-color: #162238;
   color: #fff;
   display: -webkit-box;
@@ -492,7 +500,10 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin: 0 auto;
+}
+
+.learning .learning-right .TBTT > * {
+  margin: 20px 0;
 }
 
 .learning .learning-right .TBTT .lrng-right-bar {
@@ -534,5 +545,6 @@
           box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
   overflow-x: hidden;
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
