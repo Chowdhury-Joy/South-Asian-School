@@ -1,0 +1,6 @@
+{
+    "editor.accessibilityPageSize": 5,
+    "editor.tabSize": 10,
+    "editor.wordWrap": "on",
+    "diffEditor.wordWrap": "on"
+}
