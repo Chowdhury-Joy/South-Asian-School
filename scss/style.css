@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 .nav-whole {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -392,8 +393,6 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .stories .stories-part .stories-all > * {
@@ -418,6 +417,116 @@
 .stories .stories-part .stories-all .stories-more:hover {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.learning {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+}
+
+.learning .learning-left {
+  width: 40%;
+  position: relative;
+}
+
+.learning .learning-left img {
+  width: 100%;
+}
+
+.learning .learning-left .learningTxt {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.learning .learning-left .learningTxt .lrng-txt-qoute {
+  font-family: 'Tinos', serif;
+  font-size: 30px;
+  width: 350px;
+}
+
+.learning .learning-right {
+  width: 60%;
+  background-color: #162238;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.learning .learning-right .TBTT {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 auto;
+}
+
+.learning .learning-right .TBTT .lrng-right-bar {
+  width: 10%;
+  background-color: #ddd;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-top: 1px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.learning .learning-right .TBTT .lrng-right-lrng {
+  font-family: 'Lora', serif;
+}
+
+.learning .learning-right .TBTT .lrng-right-TBTT {
+  font-family: 'Tinos', serif;
+  font-size: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.learning .learning-right .TBTT .lrng-right-des {
+  font-family: 'Tinos', serif;
+  font-size: 17px;
+  width: 60%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.learning .learning-right .TBTT .lrng-right-btn {
+  font-family: 'Lora', serif;
+  font-weight: 800;
 }
 
 * {

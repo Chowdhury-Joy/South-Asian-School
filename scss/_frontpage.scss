@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
 .banner{
     position: relative;
 
@@ -225,7 +225,7 @@ opacity: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
-          flex-wrap: wrap;
+          
           > *{
              margin-bottom: 20px; 
           }
@@ -250,6 +250,87 @@ opacity: 0;
             }
         }
         img {
+        }
+      }
+    }
+  }
+
+  
+  .learning {
+      display: flex;
+      min-height: 100vh;
+    .learning-left {
+        width: 40%;
+        position: relative;
+      img {
+          width: 100%;
+      }
+      .learningTxt {
+position: absolute;
+top: 50%;
+color: #fff;
+display: flex;
+flex-direction: column;
+position: absolute;
+top: 70%;
+left: 50%;
+transform: translate(-50%, -50%);
+
+        .lrng-txt-qoute {
+            font-family: 'Tinos', serif;
+            font-size: 30px;
+            width: 350px;
+        }
+        .lrng-txt-nm {
+        }
+      }
+    }
+
+
+    .learning-right {
+        width: 60%;
+        background-color: #162238;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      .TBTT {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+margin: 0 auto;
+        .lrng-right-bar {
+            width: 10%;
+            background-color: #ddd;
+             transform: rotate(90deg);
+            //  text-align: left;
+             padding-top: 1px;
+             color: white;
+             margin-bottom: 50px;
+        }
+        .lrng-right-lrng {
+            font-family: 'Lora', serif;
+            
+        }
+        .lrng-right-TBTT {
+            font-family: 'Tinos', serif;
+            font-size: 40px;
+            width: 60%;
+            text-align: center;
+        }
+        .lrng-right-des {
+            font-family: 'Tinos', serif;
+            font-size: 17px;
+            width: 60%;
+            text-align: center;
+            line-height: 35px;
+        }
+        .lrng-right-btn {
+            font-family: 'Lora', serif;
+            font-weight: 800;
         }
       }
     }
