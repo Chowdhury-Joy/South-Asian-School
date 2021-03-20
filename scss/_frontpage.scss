@@ -214,6 +214,7 @@ opacity: 0;
             margin-bottom: 30px;
             &:hover{
                 text-decoration: underline;
+                cursor: pointer;
             }
         }
       }
@@ -224,6 +225,7 @@ opacity: 0;
           display: flex;
           flex-direction: column;
           align-items: center;
+          flex-wrap: wrap;
           > *{
              margin-bottom: 20px; 
           }
@@ -242,6 +244,10 @@ opacity: 0;
         }
         .stories-more {
             font-family: 'Lora', serif;
+            &:hover{
+                text-decoration: underline;
+                cursor: pointer;
+            }
         }
         img {
         }

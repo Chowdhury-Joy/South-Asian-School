@@ -372,6 +372,7 @@
 
 .stories .stories-top .stories-v-all:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .stories .stories-part {
@@ -391,6 +392,8 @@
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .stories .stories-part .stories-all > * {
@@ -410,6 +413,11 @@
 
 .stories .stories-part .stories-all .stories-more {
   font-family: 'Lora', serif;
+}
+
+.stories .stories-part .stories-all .stories-more:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 * {
