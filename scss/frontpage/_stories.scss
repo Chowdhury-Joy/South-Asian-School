@@ -1,0 +1,59 @@
+
+  .stories {
+          min-height: 100vh;
+          .stories-top {
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+            .stories-main {
+                font-size: 45px;
+                font-family: 'Lora', serif;
+                margin-bottom: 10px;
+            }
+            .stories-v-all {
+                font-size: 17px;
+                font-family: 'Playfair Display', serif;
+                margin-bottom: 30px;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+          }
+    
+        .stories-part {
+            display: flex;
+          .stories-all {
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              
+              > *{
+                 margin-bottom: 20px; 
+              }
+            .stories-img {
+            }
+            .stories-date {
+            }
+            .stories-title {
+                font-size: 32px;
+                font-family: 'Playfair Display', serif;
+            }
+            .stories-des {
+                text-align: center;
+                font-family: 'Playfair Display', serif;
+                width: 85%;
+            }
+            .stories-more {
+                font-family: 'Lora', serif;
+                &:hover{
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+            img {
+            }
+          }
+        }
+      }

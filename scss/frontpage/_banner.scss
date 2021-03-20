@@ -1,0 +1,106 @@
+.banner{
+          position: relative;
+      
+      //?? Styling image
+          img{
+      
+      width: 98vw;
+      margin: 0 auto;
+      opacity: 0.8;
+          }
+      
+          .bannerTxt{
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+              position: absolute;
+              width: 100vw;
+              height: 100vh;
+              margin: 0 auto;
+              top:10%;
+      
+              @keyframes "bounce01" {
+      
+                  0% {
+                      transform: translateY(-50%)
+                  }
+                  70% {
+      opacity: 0.3;
+                  }
+                  100% {
+      opacity: 0;
+                  }
+              }
+              #scrldwn01 {
+                  height: 20vh;
+                  position: absolute;
+                  top:10%;
+                  width: 100%;
+                  &::before {
+                      animation: bounce01 1s ease infinite;
+                      // bottom: 2rem;
+                      color: #fff;
+                      content: '|';
+                      font-size: 4rem;
+                      height: 4rem;
+                      left: 50%;
+                      letter-spacing: -1px;
+                      line-height: 4rem;
+                      margin-left: -3rem;
+                      opacity: 0.8;
+                      position: absolute;
+                      text-align: center;
+                      width: 4rem;
+                  }
+              }
+      
+              @keyframes "bounce02" {
+      
+                  50% {
+                      transform: translateY(-50%);
+                  }
+      
+              }
+      
+              #scrldwn02 {
+                  height: 85vh;
+                  position: absolute;
+                  top:10%;
+                  width: 100%;
+                  &::before {
+                      animation: bounce02 1s ease infinite;
+                      bottom: 2rem;
+                      color: #fff;
+                      content: '|';
+                      font-size: 5rem;
+                      height: 4rem;
+                      left: 50%;
+                      letter-spacing: -1px;
+                      line-height: 4rem;
+                      margin-left: -3rem;
+                      opacity: 0.8;
+                      position: absolute;
+                      text-align: center;
+                      width: 4rem;
+                  }
+              }
+          }
+      
+          .welcome{
+              // position: absolute;
+              // top:30%;
+              // left: 45%;
+              font-family: 'Lora', serif;
+          }
+          .sclnm{
+              // position: absolute;
+              // top:30%;
+              // left: 30%;
+              font-size: 80px;
+              text-align: center;
+              width: 600px;
+              font-family: 'Lora', serif;
+              margin: 0;
+          }
+      }
