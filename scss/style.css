@@ -1,0 +1,421 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+.nav-whole {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-whole .nav-left .ham-in img {
+  max-width: 45px;
+}
+
+.nav-whole .nav-left .overlay {
+  background-color: #FAFAFA;
+  margin: 33px 0 0 -10px;
+  position: fixed;
+  width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  opacity: 0;
+}
+
+.nav-whole .nav-left .overlay .clip {
+  opacity: 1;
+}
+
+.nav-whole .nav-left .overlay .exit {
+  position: relative;
+  left: 90%;
+}
+
+.nav-whole .nav-left .overlay .exit img {
+  max-width: 45px;
+}
+
+.nav-whole .nav-left .overlay .menu .menu-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-whole .nav-left .overlay .menu .menu-container:not(:hover) > .menu-cont-li {
+  display: none;
+}
+
+.nav-whole .nav-left .overlay .menu .category {
+  padding-left: 5%;
+  margin-top: 0;
+  font-size: 30px;
+}
+
+.nav-whole .nav-left .overlay .menu .category:hover {
+  color: #d21245;
+}
+
+.nav-whole .nav-left .overlay .menu ul {
+  left: 20%;
+  position: absolute;
+  top: 33px;
+}
+
+.nav-whole .nav-left .overlay .menu ul li {
+  list-style-type: none;
+  font-size: 24px;
+  padding-bottom: 30px;
+}
+
+.nav-whole .nav-left .overlay .menu ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.nav-whole .nav-left .overlay .menu ul li a:hover {
+  color: #d21245;
+}
+
+.nav-whole .nev-center {
+  margin-left: 25%;
+}
+
+.nav-whole .nev-center img {
+  max-width: 80px;
+}
+
+.nav-whole .nev-right ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.nav-whole .nev-right ul li {
+  list-style-type: none;
+  padding: 0 10px;
+}
+
+.nav-whole .nev-right ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.banner {
+  position: relative;
+}
+
+.banner img {
+  width: 98vw;
+  margin: 0 auto;
+  opacity: 0.8;
+}
+
+.banner .bannerTxt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  top: 10%;
+}
+
+@-webkit-keyframes "bounce01" {
+  0% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes "bounce01" {
+  0% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+  70% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.banner .bannerTxt #scrldwn01 {
+  height: 20vh;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.banner .bannerTxt #scrldwn01::before {
+  -webkit-animation: bounce01 1s ease infinite;
+          animation: bounce01 1s ease infinite;
+  color: #fff;
+  content: '|';
+  font-size: 4rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 4rem;
+}
+
+@-webkit-keyframes "bounce02" {
+  50% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+@keyframes "bounce02" {
+  50% {
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+  }
+}
+
+.banner .bannerTxt #scrldwn02 {
+  height: 85vh;
+  position: absolute;
+  top: 10%;
+  width: 100%;
+}
+
+.banner .bannerTxt #scrldwn02::before {
+  -webkit-animation: bounce02 1s ease infinite;
+          animation: bounce02 1s ease infinite;
+  bottom: 2rem;
+  color: #fff;
+  content: '|';
+  font-size: 5rem;
+  height: 4rem;
+  left: 50%;
+  letter-spacing: -1px;
+  line-height: 4rem;
+  margin-left: -3rem;
+  opacity: 0.8;
+  position: absolute;
+  text-align: center;
+  width: 4rem;
+}
+
+.banner .welcome {
+  font-family: 'Lora', serif;
+}
+
+.banner .sclnm {
+  font-size: 80px;
+  text-align: center;
+  width: 600px;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.cti {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.cti .bar {
+  font-size: 50px;
+}
+
+.cti .cti-explore {
+  font-family: 'Lora', serif;
+  font-weight: 300;
+  margin: 20px 0 20px 0;
+}
+
+.cti .cti-main {
+  font-size: 45px;
+  font-family: 'Lora', serif;
+  width: 500px;
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.cti .cti-txt {
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+  width: 800px;
+  margin: 0 0 20px 0;
+  text-align: center;
+}
+
+.cti .cti-btn {
+  margin-top: 20px;
+  background-color: transparent;
+  border: 1px #e77e1c solid;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.cti .cti-btn:hover {
+  background-color: #e77e1c;
+  color: #fff;
+}
+
+.location {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.location video {
+  width: 100%;
+}
+
+.location .loc-txt {
+  position: absolute;
+  top: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.location .loc-txt .loc-main {
+  font-size: 45px;
+  font-family: 'Lora', serif;
+  margin-bottom: 20px;
+}
+
+.location .loc-txt .play:hover {
+  cursor: pointer;
+}
+
+.stories {
+  min-height: 100vh;
+}
+
+.stories .stories-top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stories .stories-top .stories-main {
+  font-size: 45px;
+  font-family: 'Lora', serif;
+  margin-bottom: 10px;
+}
+
+.stories .stories-top .stories-v-all {
+  font-size: 17px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 30px;
+}
+
+.stories .stories-top .stories-v-all:hover {
+  text-decoration: underline;
+}
+
+.stories .stories-part {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stories .stories-part .stories-all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.stories .stories-part .stories-all > * {
+  margin-bottom: 20px;
+}
+
+.stories .stories-part .stories-all .stories-title {
+  font-size: 32px;
+  font-family: 'Playfair Display', serif;
+}
+
+.stories .stories-part .stories-all .stories-des {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  width: 85%;
+}
+
+.stories .stories-part .stories-all .stories-more {
+  font-family: 'Lora', serif;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=style.css.map */
