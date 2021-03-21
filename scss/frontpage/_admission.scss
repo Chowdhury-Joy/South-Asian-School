@@ -1,0 +1,53 @@
+
+  .admission {
+            height: 100vh;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          background-color: #F8F8F8;
+  > *{
+      margin: 20px 0;
+  }
+    .admission-bar {
+          width: 5%;
+          background-color: #ddd;
+           transform: rotate(90deg);
+          //  text-align: left;
+           padding-top: 1px;
+           color: white;
+           margin-bottom: 50px;
+    }
+    .admission-top-title {
+          font-family: 'Lora', serif;
+          opacity: 0.6;
+    }
+    .admission-title {
+          font-family: 'Tinos', serif;
+          font-size: 40px;
+          width: 60%;
+          text-align: center;
+          
+    }
+    .admission-des {
+          font-family: 'Lora', serif;
+          font-size: 17px;
+          width: 60%;
+          text-align: center;
+          line-height: 35px;
+    }
+    .admission-btn {
+              display: flex;
+              column-gap: 50px;
+      .admission-btn-01 {
+          font-family: 'Tinos', serif;
+          color: #be2424;
+          opacity: 0.8;
+      }
+      .admission-btn-02 {
+          font-family: 'Tinos', serif;
+          color: #be2424;
+          opacity: 0.8;
+      }
+    }
+  }

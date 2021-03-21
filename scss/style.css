@@ -576,6 +576,16 @@
   margin-bottom: 20px;
 }
 
+.living .living-left .living-left-bar {
+  width: 5%;
+  background-color: #ddd;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-top: 1px;
+  color: white;
+  margin-bottom: 50px;
+}
+
 .living .living-left .living-left-tit {
   font-family: 'Tinos', serif;
   opacity: 0.6;
@@ -670,6 +680,78 @@
 .living .living-right .liv-ri-bot .liv-ri-bot-all .liv-ri-bot-tit {
   font-family: 'Lora', sarif;
   font-size: 35px;
+}
+
+.admission {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #F8F8F8;
+}
+
+.admission > * {
+  margin: 20px 0;
+}
+
+.admission .admission-bar {
+  width: 5%;
+  background-color: #ddd;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-top: 1px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.admission .admission-top-title {
+  font-family: 'Lora', serif;
+  opacity: 0.6;
+}
+
+.admission .admission-title {
+  font-family: 'Tinos', serif;
+  font-size: 40px;
+  width: 60%;
+  text-align: center;
+}
+
+.admission .admission-des {
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  width: 60%;
+  text-align: center;
+  line-height: 35px;
+}
+
+.admission .admission-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 50px;
+          column-gap: 50px;
+}
+
+.admission .admission-btn .admission-btn-01 {
+  font-family: 'Tinos', serif;
+  color: #be2424;
+  opacity: 0.8;
+}
+
+.admission .admission-btn .admission-btn-02 {
+  font-family: 'Tinos', serif;
+  color: #be2424;
+  opacity: 0.8;
 }
 
 * {
