@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 .nav-whole {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -890,6 +891,55 @@
 .apply .apply-right .apply-right-all .apply-right-btn {
   font-family: 'Tinos', serif;
   opacity: 0.8;
+}
+
+.footer {
+  margin-top: 20vh;
+  background-color: #152335;
+  color: aliceblue;
+  padding: 10vh 0;
+}
+
+.footer .kanit {
+  font-family: 'Kanit', sans-serif;
+  margin-bottom: 10px;
+}
+
+.footer .footer-part-01 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.footer .footer-part-01 .footer-part-01-des .foo-pa-01-title {
+  font-size: 30px;
+}
+
+.footer .footer-part-02 {
+  max-width: 80vw;
+  margin: auto;
+}
+
+.footer .footer-part-02 .foo-social img {
+  max-width: 24px;
+  margin: 0 20px 20px 0;
+}
+
+.footer .footer-part-03 {
+  max-width: 80vw;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 20px;
 }
 
 * {

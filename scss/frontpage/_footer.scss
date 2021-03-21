@@ -1,0 +1,55 @@
+
+  .footer {
+            .kanit{
+                    font-family: 'Kanit', sans-serif;
+                    margin-bottom: 10px;
+            }
+
+          margin-top: 20vh;
+          background-color: #152335;
+          color: aliceblue;
+          padding: 10vh 0;
+        .footer-part-01 {
+            display: flex;
+            justify-content: space-between;
+                  max-width: 80vw;
+                  margin: auto;
+                  
+          .footer-part-01-des {
+            .foo-pa-01-head {
+            }
+            .foo-pa-01-body {
+            }
+            .foo-pa-01-title {
+                font-size: 30px;
+            }
+            .foo-pa-01-slogan {
+            }
+            .foo-pa-01-body-option {
+            }
+          }
+        }
+    
+        .footer-part-02 {
+                  max-width: 80vw;
+                  margin: auto;
+          .foo-social {
+
+            img {
+                max-width: 24px;
+                margin: 0 20px 20px 0;
+            }
+          }
+        }
+        .footer-part-03 {
+                  max-width: 80vw;
+                  margin: auto;
+                  display: flex;
+                  justify-content: space-between;
+                  margin-top: 20px;
+          .footer-part-03-left {
+          }
+          .footer-part-03-right {
+          }
+        }
+      }
