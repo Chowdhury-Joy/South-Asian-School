@@ -1,0 +1,102 @@
+
+  .apply {
+            max-height: 80vh;
+            display: flex;
+            column-gap: 10px;
+            margin: 5% 0;
+    .apply-left {
+              display: flex;
+          max-width: 50vw;
+      .apply-left-img {
+          // background-color:#be2424;
+                order: 1;
+        .img13 {
+display: none;
+        }
+        .img1302 {
+          height: 90.36%;
+          position: relative;
+          top: 5%;
+          // object-fit: cover;
+        }
+      }
+      .apply-left-all {
+                order: 0;
+                background-color: #2F3648;
+                width: 90%;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                >*{
+                          margin-bottom: 30px;
+                }
+        .apply-left-title {
+          font-family: 'Tinos', serif;
+          font-size: 40px;
+          width: 84%;
+          text-align: center;
+        }
+        .apply-left-des {
+                            font-family: 'Lora', serif;
+          font-size: 16px;
+          width: 80%;
+          text-align: center;
+          line-height: 35px;
+        }
+        .apply-left-btn {
+                            font-family: 'Tinos', serif;
+          // color: #be2424;
+          opacity: 0.8;
+        }
+      }
+    }
+    .apply-right {
+              display: flex;
+          //     max-width: 50vw;
+      .apply-right-img {
+          // background-color:#be2424;
+        .img16 {
+                  display: none;
+        }
+        .img1602 {
+          height: 90.36%; 
+          position: relative;
+          top: 5%;
+        }
+      }
+      .apply-right-all {
+                background-color: #2F3648;
+                width: 90%;
+                color: #fff;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+
+                >*{
+                          margin-bottom: 30px;
+                }
+        .apply-right-title {
+                            font-family: 'Tinos', serif;
+          font-size: 40px;
+          width: 84%;
+          text-align: center;
+        }
+        .apply-right-des {
+          font-family: 'Lora', serif;
+          font-size: 16px;
+          width: 80%;
+          text-align: center;
+          line-height: 35px;
+        }
+        .apply-right-btn {
+                            font-family: 'Tinos', serif;
+          // color: #be2424;
+          opacity: 0.8;
+        }
+      }
+    }
+  }
