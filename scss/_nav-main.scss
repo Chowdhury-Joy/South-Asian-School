@@ -3,9 +3,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    
+>*{
+  flex: 1;
+}
 
     .nav-left {
+      
       .ham-in {
         img {
             max-width: 45px;
@@ -79,17 +83,23 @@
       }
 
     }
-    .nev-center {
-      margin-left: 25%;
-      img{
-        max-width: 80px;
-        }
-      a {
 
+  .nav-center {
+    .nav-centar-all {
+text-align: center;
+
+      a {
+        img {
+          width: 80px;
+        }
+        &:hover {}
+        &:active {}
+        &:focus {}
       }
     }
+  }
 
-  .nev-right {
+  .nav-right {
     ul {
       display: flex;
       li{

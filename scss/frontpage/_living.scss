@@ -1,37 +1,97 @@
   
   .living {
+            display: flex;
+            height: 100vh;
+            justify-content: space-between;
           .living-left {
-            .living-left {
-              .living-all {
-              }
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    >*{
+                              margin-bottom: 20px;
+                    }
+                    
+
+
               .living-left-bar {
               }
-              .living-left-lrng {
+              .living-left-tit {
+                    font-family: 'Tinos', serif;
+                    opacity: 0.6;
               }
-              .living-left-TBTT {
+              .living-left-main-tit {
+                    font-family: 'Lora', serif;
+                    font-size: 40px;
               }
               .living-left-des {
+                        width: 65%;
+                        text-align: center;
+                        font-family: 'Lora', serif;
+                        line-height: 28px;
+                        opacity: 0.8;
               }
               .living-left-btn {
+                    font-family: 'Tinos', serif;
+                    color: #be2424;
+                    opacity: 0.8;
               }
-            }
           }
-          .living-right {
-            .living-right-top {
-              img {
-              }
-              .liv-ri-top-tit {
-              }
-              .liv-ri-top-find {
-              }
-            }
-            .living-right-down {
-              img {
-              }
-              .liv-ri-top-tit {
-              }
-              .liv-ri-top-find {
-              }
-            }
-          }
+         
+
+
+  .living-right {
+            width: 100vw;
+    .liv-ri-top {
+              position: relative;
+      img {
+          height: 49.5vh;
+          max-width: 35vw;
+      }
+      .liv-ri-top-all {
+                position: absolute;
+                top:50%;
+                width: 100%;
+                transform: translateY(-50%);
+                color: #fff;
+                opacity: 0.8;
+                display: flex;
+                flex-direction: column;
+                
+                align-items: center;
+        .liv-ri-tit {
+                  font-family: 'Lora', sarif;
+                  font-size: 35px;
+        }
+        .liv-ri-top-find {
+        }
+      }
+    }
+    .liv-ri-bot {
+              position: relative;
+      img {
+          height: 49.5vh;
+          min-width: 35vw;
+      }
+      .liv-ri-bot-all {
+                position: absolute;
+                top:50%;
+                width: 100%;
+                transform: translateY(-50%);
+                color: #fff;
+                opacity: 0.8;
+                display: flex;
+                flex-direction: column;
+                
+                align-items: center;
+        .liv-ri-bot-tit {
+                  font-family: 'Lora', sarif;
+                  font-size: 35px;
+        }
+        .liv-ri-bot-find {
+        }
+      }
+    }
+  }
         }
