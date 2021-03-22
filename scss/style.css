@@ -20,72 +20,14 @@
           flex: 1;
 }
 
-.nav-whole .nav-left .ham-in img {
-  max-width: 45px;
+.nav-whole .nav-left .nav-txt {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  margin-left: 20%;
 }
 
-.nav-whole .nav-left .overlay {
-  background-color: #FAFAFA;
-  margin: 33px 0 0 -10px;
-  position: fixed;
-  width: 100vw;
-  overflow-y: scroll;
-  overflow-x: hidden;
-  opacity: 0;
-}
-
-.nav-whole .nav-left .overlay .clip {
-  opacity: 1;
-}
-
-.nav-whole .nav-left .overlay .exit {
-  position: relative;
-  left: 90%;
-}
-
-.nav-whole .nav-left .overlay .exit img {
-  max-width: 45px;
-}
-
-.nav-whole .nav-left .overlay .menu .menu-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.nav-whole .nav-left .overlay .menu .menu-container:not(:hover) > .menu-cont-li {
-  display: none;
-}
-
-.nav-whole .nav-left .overlay .menu .category {
-  padding-left: 5%;
+.nav-whole .nav-left .w3-card {
   margin-top: 0;
-  font-size: 30px;
-}
-
-.nav-whole .nav-left .overlay .menu .category:hover {
-  color: #d21245;
-}
-
-.nav-whole .nav-left .overlay .menu ul {
-  left: 20%;
-  position: absolute;
-  top: 33px;
-}
-
-.nav-whole .nav-left .overlay .menu ul li {
-  list-style-type: none;
-  font-size: 24px;
-  padding-bottom: 30px;
-}
-
-.nav-whole .nav-left .overlay .menu ul li a {
-  text-decoration: none;
-  color: #000;
-}
-
-.nav-whole .nav-left .overlay .menu ul li a:hover {
-  color: #d21245;
 }
 
 .nav-whole .nav-center .nav-centar-all {

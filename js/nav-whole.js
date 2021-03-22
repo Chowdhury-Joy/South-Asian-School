@@ -1,16 +1,15 @@
-const hamIn = document.querySelector(".ham-in");
-const overlay = document.querySelector(".overlay");
-const exit = document.querySelector(".exit");
+// var navTxt = getElementsByClassName("nav-txt");
+function w3_open() {
+    document.getElementById("main").style.marginRight = "25%";
+    document.getElementById("mySidebar").style.width = "33%";
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("openNav").style.display = 'none';
+  }
+  function w3_close() {
+    document.getElementById("main").style.marginLeft = "0%";
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("openNav").style.display = "inline-block";
+  }
 
-hamIn.addEventListener('click', () => {
-    hamIn.classList.toggle('clip');
-})
 
 
-// const menuToggle = document.querySelector('.toggle');
-//       const showcase = document.querySelector('.showcase');
-
-//       menuToggle.addEventListener('click', () => {
-//         menuToggle.classList.toggle('active');
-//         showcase.classList.toggle('active');
-//       })
