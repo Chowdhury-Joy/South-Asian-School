@@ -27,7 +27,8 @@
 }
 
 .nav-whole .nav-left .w3-card {
-  margin-top: 0;
+  position: relative;
+  top: 12%;
 }
 
 .nav-whole .nav-center .nav-centar-all {
