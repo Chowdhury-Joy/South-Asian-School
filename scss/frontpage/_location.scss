@@ -33,3 +33,16 @@
           }
       
         }
+
+        //!!TAblet version
+
+        @media all and (max-width: 1050px){
+          .location{
+            height: 45vh;
+
+            video{
+              width: 94vw;
+              margin: 0 3%;
+            }
+          }
+        }

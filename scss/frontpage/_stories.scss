@@ -1,4 +1,3 @@
-
   .stories {
           min-height: 100vh;
           .stories-top {
@@ -56,4 +55,19 @@
             }
           }
         }
+      }
+
+
+      //!!Tablet Mode
+
+      @media all and (max-width: 1050px){
+        .stories {
+          min-height: 75vh; //ch 
+        .stories-part {
+            display: flex;
+            column-gap: 10px; //ch
+            width: 96vw;
+            margin: auto;
+        }
+      }
       }

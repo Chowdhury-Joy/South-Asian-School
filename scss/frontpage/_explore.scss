@@ -48,3 +48,15 @@
         }
       }
 
+      @media all and (max-width: 1050px){
+.cti{
+    height: 60vh;
+    .cti-main{
+        font-size: 35px;
+    }
+    .cti-txt{
+        width: 600px;
+    }
+}
+
+}
