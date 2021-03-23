@@ -53,3 +53,22 @@
           }
         }
       }
+
+
+      //!! Tablet Mode
+
+      @media all and (max-width: 1050px){
+        .footer{
+          margin-top: 0;
+
+          .footer-part-01{
+            max-width: 90vw;
+          }
+          .footer-part-02{
+            max-width: 90vw;
+          }
+          .footer-part-03{
+            max-width: 90vw;
+          }
+        }
+      }

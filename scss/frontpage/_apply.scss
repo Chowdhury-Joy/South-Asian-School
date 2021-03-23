@@ -1,5 +1,5 @@
   .apply {
-        max-height: 80vh;
+        height: 80vh;
         display: flex;
         column-gap: 10px;
         margin: 5% 0;
@@ -97,4 +97,117 @@
         }
       }
     }
+  }
+
+
+
+  //!! Tablet version
+
+  @media all and (max-width: 1050px){
+    .apply {
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      margin: 5% 0;
+  .apply-left {
+        display: flex;
+        width: 100vw;
+        position: relative;
+    .apply-left-img {
+        // background-color:#be2424;
+        
+      .img13 {
+        height: 90%;
+        
+        top: 5%;
+        width: 100vw;
+        z-index: -1;
+        opacity: 0.6;
+        object-fit: scale-down;
+        
+      }
+    }
+    .apply-left-all {
+        // display: none;
+        background-color: transparent;
+        color: #000;
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        >*{
+        margin-bottom: 30px;
+        }
+      .apply-left-title {
+        font-family: 'Tinos', serif;
+        font-size: 40px;
+        width: 84%;
+        text-align: center;
+        z-index: 1;
+      }
+      .apply-left-des {
+                          font-family: 'Lora', serif;
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+        line-height: 35px;
+        z-index: 2;
+      }
+      .apply-left-btn {
+                          font-family: 'Tinos', serif;
+        // color: #be2424;
+        opacity: 0.8;
+        // z-index: 3;
+      }
+    }
+  }
+
+
+  .apply-right {
+        display: flex;
+        //     max-width: 50vw;
+        position: relative;
+    .apply-right-img {
+        // background-color:#be2424;
+      .img16 {
+        height: 90%;
+        position: relative;
+        top: 5%;
+        width: 95%;
+        object-fit: scale-down;
+        z-index: -1;
+      }
+    }
+    .apply-right-all {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      width: 70%;
+      transform: translate(-50%, -50%);
+      background-color: transparent;
+      .apply-right-title {
+        font-family: 'Tinos', serif;
+        font-size: 40px;
+        width: 84%;
+        text-align: center;
+        z-index: 1;
+      }
+      .apply-right-des {
+        font-family: 'Lora', serif;
+        font-size: 16px;
+        width: 80%;
+        text-align: center;
+        line-height: 35px;
+        z-index: 2;
+      }
+      .apply-right-btn {
+        font-family: 'Tinos', serif;
+        // color: #be2424;
+        opacity: 0.8;
+        z-index: 3;
+      }
+    }
+  }
+}
   }
