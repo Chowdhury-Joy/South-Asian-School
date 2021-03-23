@@ -1145,7 +1145,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 50vw;
+  max-width: 80vw;
 }
 
 .apply .apply-left .apply-left-img {
@@ -1155,13 +1155,12 @@
 }
 
 .apply .apply-left .apply-left-img .img13 {
-  display: none;
-}
-
-.apply .apply-left .apply-left-img .img1302 {
   height: 90%;
   position: relative;
   top: 5%;
+  width: 65%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .apply .apply-left .apply-left-all {
@@ -1169,7 +1168,7 @@
       -ms-flex-order: 0;
           order: 0;
   background-color: #2F3648;
-  width: 90%;
+  width: 200%;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1217,18 +1216,17 @@
 }
 
 .apply .apply-right .apply-right-img .img16 {
-  display: none;
-}
-
-.apply .apply-right .apply-right-img .img1602 {
   height: 90%;
   position: relative;
   top: 5%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .apply .apply-right .apply-right-all {
   background-color: #2F3648;
-  width: 90%;
+  width: 700%;
   color: #fff;
   display: -webkit-box;
   display: -ms-flexbox;

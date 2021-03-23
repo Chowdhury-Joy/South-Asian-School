@@ -5,24 +5,22 @@
         margin: 5% 0;
     .apply-left {
           display: flex;
-          max-width: 50vw;
+          max-width: 80vw;
       .apply-left-img {
           // background-color:#be2424;
                 order: 1;
         .img13 {
-      display: none;
-        }
-        .img1302 {
           height: 90%;
           position: relative;
           top: 5%;
-          // object-fit: cover;
+          width: 65%;
+          object-fit: cover;
         }
       }
       .apply-left-all {
                 order: 0;
                 background-color: #2F3648;
-                width: 90%;
+                width: 200%;
                 color: #fff;
                 display: flex;
                 flex-direction: column;
@@ -52,23 +50,24 @@
         }
       }
     }
+
+
     .apply-right {
               display: flex;
           //     max-width: 50vw;
       .apply-right-img {
           // background-color:#be2424;
         .img16 {
-                  display: none;
-        }
-        .img1602 {
-          height: 90%; 
+          height: 90%;
           position: relative;
           top: 5%;
+          width: 100%;
+          object-fit: cover;
         }
       }
       .apply-right-all {
                 background-color: #2F3648;
-                width: 90%;
+                width: 700%;
                 color: #fff;
                 display: flex;
                 flex-direction: column;
