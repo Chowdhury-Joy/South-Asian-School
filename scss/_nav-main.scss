@@ -85,7 +85,7 @@ text-align: center;
   .w3-card{
     position: relative;
     top: 0%;
-    margin-left: 0;
+    left: 0%;
   }
                 }
 
@@ -123,19 +123,6 @@ text-align: center;
   //!!Mobile Device
 
 
-//   @media all and (max-width: 500px){
-// .nav-whole{
-//   display: grid;
-//   grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
-
-//   .nav-right{
-//     width: 90vw;
-//     margin:  5%;
-//   }
-// }
-//   }
-
-
 @media all and (max-width: 500px){
   .nav-whole{
     display: grid;
@@ -144,11 +131,11 @@ grid-template-rows: minmax(100px, auto);
 grid-template-areas: "left center"
                       "right right";
 
-                      .nav-left{
-                        .nav-txt{
-                          margin-left: 5%;
-                        }
-                      }
+  .nav-left{
+    .nav-txt{
+      margin-left: 5%;
+    }
+  }
   }
 
 
