@@ -1,53 +1,125 @@
+.admission {
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #ebe2e2;
 
-  .admission {
-            height: 100vh;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-          background-color: #ebe2e2;
-  > *{
+      > *{
       margin: 20px 0;
-  }
-    .admission-bar {
-          width: 5%;
-          background-color: #ddd;
-           transform: rotate(90deg);
-          //  text-align: left;
-           padding-top: 1px;
-           color: white;
-           margin-bottom: 50px;
-    }
-    .admission-top-title {
-          font-family: 'Lora', serif;
-          opacity: 0.6;
-    }
-    .admission-title {
-          font-family: 'Tinos', serif;
-          font-size: 40px;
-          width: 60%;
-          text-align: center;
-          
-    }
-    .admission-des {
-          font-family: 'Lora', serif;
-          font-size: 17px;
-          width: 60%;
-          text-align: center;
-          line-height: 35px;
-    }
-    .admission-btn {
-              display: flex;
-              column-gap: 50px;
+      }
+      
+      .admission-bar {
+            width: 5%;
+            background-color: #ddd;
+            transform: rotate(90deg);
+            //  text-align: left;
+            padding-top: 1px;
+            color: white;
+            margin-bottom: 50px;
+      }
+      .admission-top-title {
+            font-family: 'Lora', serif;
+            opacity: 0.6;
+      }
+      .admission-title {
+            font-family: 'Tinos', serif;
+            font-size: 40px;
+            width: 60%;
+            text-align: center;
+            
+      }
+      .admission-des {
+            font-family: 'Lora', serif;
+            font-size: 17px;
+            width: 60%;
+            text-align: center;
+            line-height: 35px;
+      }
+      .admission-btn {
+                  display: flex;
+                  column-gap: 50px;
       .admission-btn-01 {
-          font-family: 'Tinos', serif;
-          color: #be2424;
-          opacity: 0.8;
+            font-family: 'Tinos', serif;
+            color: #be2424;
+            opacity: 0.8;
       }
       .admission-btn-02 {
-          font-family: 'Tinos', serif;
-          color: #be2424;
-          opacity: 0.8;
+            font-family: 'Tinos', serif;
+            color: #be2424;
+            opacity: 0.8;
       }
-    }
-  }
+      }
+}
+
+
+//!!Tablet version
+
+@media all and (max-width:1050px){
+      .admission{
+            height: 60vh;
+
+            >*{
+                  margin: 0 0 20px;
+            }
+      }
+}
+
+
+//!!Mobile version
+
+@media all and (max-width: 500px){
+      .admission {
+            height: 130%;
+            > *{
+            margin: 20px 0;
+            }
+            
+            .admission-bar {
+                  width: 15%;
+                  background-color: rgb(31, 29, 29);
+                  transform: rotate(90deg);
+                  //  text-align: left;
+                  padding-top: 1px;
+                  // color: rgb(31, 29, 29);
+                  margin-bottom: 30px;
+            }
+            .admission-top-title {
+                  font-family: 'Lora', serif;
+                  opacity: 0.6;
+            }
+            .admission-title {
+                  font-family: 'Tinos', serif;
+                  font-size: 24px;
+                  width: 80%;
+                  text-align: center;
+                  
+            }
+            .admission-des {
+                  font-family: 'Lora', serif;
+                  font-size: 15px;
+                  width: 80%;
+                  text-align: center;
+                  line-height: 25px;
+            }
+            .admission-btn {
+                        display: flex;
+                        flex-direction: column;
+                        text-align: center;
+                       > *{
+                             margin-bottom: 25px;
+                       }
+            .admission-btn-01 {
+                  font-family: 'Tinos', serif;
+                  color: #be2424;
+                  opacity: 0.8;
+            }
+            .admission-btn-02 {
+                  font-family: 'Tinos', serif;
+                  color: #be2424;
+                  opacity: 0.8;
+            }
+            }
+      }
+}

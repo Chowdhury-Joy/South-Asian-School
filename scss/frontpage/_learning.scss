@@ -1,182 +1,258 @@
-  
-  .learning {
-          display: flex;
-          height: 100vh;
-        .learning-left {
-            width: 100%;
-            position: relative;
-          img {
-            display: block;
-            object-fit: cover;
-            max-width: 100%;
-            height: 100%;
-          }
-          .learningTxt {
-    position: absolute;
-    top: 50%;
-    color: #fff;
+.learning {
     display: flex;
-    flex-direction: column;
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    
-            .lrng-txt-qoute {
-                font-family: 'Tinos', serif;
-                font-size: 30px;
-                width: 350px;
-            }
-            .lrng-txt-nm {
-                margin-top: 20px;
-                font-family: 'Lora', serif;
-            }
-          }
-        }
-    
-    
-        .learning-right {
-    
-            background-color: #162238;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            
-          .TBTT {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-    > *{
-        margin: 20px 0;
+    height: 100vh;
+  .learning-left {
+      width: 100%;
+      position: relative;
+    img {
+      display: block;
+      object-fit: cover;
+      max-width: 100%;
+      height: 100%;
     }
-            .lrng-right-bar {
-                width: 10%;
-                background-color: #ddd;
-                 transform: rotate(90deg);
-                //  text-align: left;
-                 padding-top: 1px;
-                 color: white;
-                 margin-bottom: 50px;
-            }
-            .lrng-right-lrng {
-                font-family: 'Lora', serif;
-                
-            }
-            .lrng-right-TBTT {
-                font-family: 'Tinos', serif;
-                font-size: 40px;
-                width: 60%;
-                text-align: center;
-            }
-            .lrng-right-des {
-                font-family: 'Tinos', serif;
-                font-size: 17px;
-                width: 60%;
-                text-align: center;
-                line-height: 35px;
-            }
-            .lrng-right-btn {
-                font-family: 'Lora', serif;
-                font-weight: 800;
-            }
+      .learningTxt {
+  position: absolute;
+  top: 50%;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+          .lrng-txt-qoute {
+              font-family: 'Tinos', serif;
+              font-size: 30px;
+              width: 350px;
+          }
+          .lrng-txt-nm {
+              margin-top: 20px;
+              font-family: 'Lora', serif;
           }
         }
       }
-
-      //!!Tablet MOde
-
-      @media all and (max-width: 1050px){
-        .learning {
+  
+  
+      .learning-right {
+  
+          background-color: #162238;
+          color: #fff;
           display: flex;
-          height: 60vh;
-        .learning-left {
-            // width: 100%;
-            position: relative;
-          img {
-            display: block;
-            object-fit: cover;
-            max-width: 100%;
-            height: 100%;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+        .TBTT {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  > *{
+      margin: 20px 0;
+  }
+          .lrng-right-bar {
+              width: 10%;
+              background-color: #ddd;
+                transform: rotate(90deg);
+              //  text-align: left;
+                padding-top: 1px;
+                color: white;
+                margin-bottom: 50px;
           }
-          .learningTxt {
-            position: absolute;
-            top: 50%;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            top: 70%;
-            left: 50%;
-            // transform: translate(-50%, -50%);
-            
-            .lrng-txt-qoute {
-                font-family: 'Tinos', serif;
-                font-size: 24px;
-                width: 300px;
-                margin: 0 5%;
-            }
-            .lrng-txt-nm {
-              width: 300px;
-              margin: 25px 5% 0;
-                font-family: 'Lora', serif;
-            }
+          .lrng-right-lrng {
+              font-family: 'Lora', serif;
+              
+          }
+          .lrng-right-TBTT {
+              font-family: 'Tinos', serif;
+              font-size: 40px;
+              width: 60%;
+              text-align: center;
+          }
+          .lrng-right-des {
+              font-family: 'Tinos', serif;
+              font-size: 17px;
+              width: 60%;
+              text-align: center;
+              line-height: 35px;
+          }
+          .lrng-right-btn {
+              font-family: 'Lora', serif;
+              font-weight: 800;
           }
         }
-    
-    
-        .learning-right {
-    
-            background-color: #162238;
-            color: #fff;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            width: 140%;
-            
-          .TBTT {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-    > *{
-        margin: 20px 0;
+      }
     }
-            .lrng-right-bar {
-                width: 10%;
-                background-color: #ddd;
-                 transform: rotate(90deg);
-                //  text-align: left;
-                 padding-top: 1px;
-                 color: white;
-                 margin-bottom: 50px;
-            }
-            .lrng-right-lrng {
-                font-family: 'Lora', serif;
-                
-            }
-            .lrng-right-TBTT {
-                font-family: 'Tinos', serif;
-                font-size: 30px;
-                width: 70%;
-                text-align: center;
-            }
-            .lrng-right-des {
-                font-family: 'Tinos', serif;
-                font-size: 17px;
-                width: 75%;
-                text-align: center;
-                line-height: 30px;
-            }
-            .lrng-right-btn {
-                font-family: 'Lora', serif;
-                font-weight: 800;
-            }
+
+    //!!Tablet MOde
+
+    @media all and (max-width: 1050px){
+      .learning {
+        display: flex;
+        height: 60vh;
+      .learning-left {
+          // width: 100%;
+          position: relative;
+        img {
+          display: block;
+          object-fit: cover;
+          max-width: 100%;
+          height: 100%;
+        }
+        .learningTxt {
+          position: absolute;
+          top: 50%;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          position: absolute;
+          top: 70%;
+          left: 50%;
+          // transform: translate(-50%, -50%);
+          
+          .lrng-txt-qoute {
+              font-family: 'Tinos', serif;
+              font-size: 24px;
+              width: 300px;
+              margin: 0 5%;
+          }
+          .lrng-txt-nm {
+            width: 300px;
+            margin: 25px 5% 0;
+              font-family: 'Lora', serif;
           }
         }
       }
+  
+  
+      .learning-right {
+  
+          background-color: #162238;
+          color: #fff;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          width: 140%;
+          
+        .TBTT {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+  > *{
+      margin: 20px 0;
+  }
+          .lrng-right-bar {
+              width: 10%;
+              background-color: #ddd;
+                transform: rotate(90deg);
+              //  text-align: left;
+                padding-top: 1px;
+                color: white;
+                margin-bottom: 50px;
+          }
+          .lrng-right-lrng {
+              font-family: 'Lora', serif;
+              
+          }
+          .lrng-right-TBTT {
+              font-family: 'Tinos', serif;
+              font-size: 30px;
+              width: 70%;
+              text-align: center;
+          }
+          .lrng-right-des {
+              font-family: 'Tinos', serif;
+              font-size: 17px;
+              width: 75%;
+              text-align: center;
+              line-height: 30px;
+          }
+          .lrng-right-btn {
+              font-family: 'Lora', serif;
+              font-weight: 800;
+          }
+        }
       }
+    }
+    }
+    //!!Mobile MOde
+
+    @media all and (max-width: 500px){
+      .learning {
+        display: flex;
+        flex-direction: column;
+        height: 150%;
+      .learning-left {
+        order: 1;
+          // width: 100%;
+          position: relative;
+        img {
+          display: block;
+          object-fit: cover;
+          max-width: 100%;
+          height: 100%;
+        }
+        .learningTxt {
+          
+          .lrng-txt-qoute {
+              font-family: 'Tinos', serif;
+              font-size: 20px;
+              width: 300px;
+              margin: 0 2%;
+          }
+          .lrng-txt-nm {
+            width: 300px;
+            margin: 20px 5% 0;
+              font-family: 'Lora', serif;
+          }
+        }
+      }
+  
+  
+      .learning-right {
+          order: 0;
+          width: 100%;
+          
+        .TBTT {
+
+  > *{
+      margin: 10px 0;
+  }
+          .lrng-right-bar {
+              width: 20%;
+              background-color: #ddd;
+                transform: rotate(90deg);
+              //  text-align: left;
+                padding-top: 1px;
+                color: white;
+                margin-bottom: 30px;
+          }
+          .lrng-right-lrng {
+              font-family: 'Lora', serif;
+              
+          }
+          .lrng-right-TBTT {
+              font-family: 'Tinos', serif;
+              font-size: 26px;
+              width: 85%;
+              text-align: center;
+          }
+          .lrng-right-des {
+              font-family: 'Tinos', serif;
+              font-size: 15px;
+              width: 75%;
+              text-align: center;
+              line-height: 24px;
+          }
+          .lrng-right-btn {
+              font-family: 'Lora', serif;
+              font-weight: 800;
+          }
+        }
+      }
+    }
+    }
 

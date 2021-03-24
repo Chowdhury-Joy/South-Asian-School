@@ -1,27 +1,72 @@
+.location {
+        position: relative;
+        height: 100vh;
+        overflow: hidden;
+        
+        video {
+            width: 100%;
+        }
+        .loc-txt{
+            position: absolute;
+            top: 40%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            margin: 0 auto;
+            color: #fff;
+    
+            .loc-main {
+                font-size: 45px;
+                font-family: 'Lora', serif;
+                margin-bottom: 20px;
+            }
+            .play {
+              img {
+              }
+              &:hover{
+                  cursor: pointer;
+              }
+            }
+        }
+    
+      }
 
-  .location {
+      //!!TAblet version
+
+      @media all and (max-width: 1050px){
+        .location{
+          height: 45vh;
+
+          video{
+            width: 94vw;
+            margin: 0 3%;
+          }
+        }
+      }
+
+      //!!Mobile version
+
+      @media all and (max-width: 500px){
+        .location {
           position: relative;
-          height: 100vh;
+          height: 40vh;
           overflow: hidden;
           
           video {
-              width: 100%;
+            width: 98vw;
+            margin: 0 1%;
           }
           .loc-txt{
               position: absolute;
-              top: 40%;
-              display: flex;
-              flex-direction: column;
-              align-items: center;
-              justify-content: center;
-              width: 100vw;
-              margin: 0 auto;
-              color: #fff;
+              top: 25%;
+
       
               .loc-main {
-                  font-size: 45px;
+                  font-size: 25px;
                   font-family: 'Lora', serif;
-                  margin-bottom: 20px;
+                  // margin-bottom: 20px;
               }
               .play {
                 img {
@@ -33,16 +78,4 @@
           }
       
         }
-
-        //!!TAblet version
-
-        @media all and (max-width: 1050px){
-          .location{
-            height: 45vh;
-
-            video{
-              width: 94vw;
-              margin: 0 3%;
-            }
-          }
-        }
+      }

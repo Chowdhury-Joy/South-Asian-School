@@ -1,5 +1,3 @@
-
-
 .cti {
           display: flex;
           flex-direction: column;
@@ -48,6 +46,8 @@
         }
       }
 
+//!!Tablet Version
+
       @media all and (max-width: 1050px){
 .cti{
     height: 60vh;
@@ -58,5 +58,42 @@
         width: 600px;
     }
 }
+}
 
+
+//!!Mobile Version
+
+@media all and (max-width: 500px){
+    .cti {
+        height: 75vh;
+        
+      .bar {
+          display: none;
+      }
+      .cti-explore {
+          font-family: 'Lora', serif;
+          font-weight: 300;
+          margin: 20px 0;
+      }
+      .cti-main {
+          font-size: 25px;
+          font-family: 'Lora', serif;
+          width: 300px;
+          text-align: center;
+          margin: 0 0 20px 0;
+      }
+      .cti-txt {
+          font-size: 15px;
+          font-family: 'Playfair Display', serif;
+          width: 300px;
+          margin: 0 0 20px 0;
+          text-align: center;
+      }
+      .cti-btn{
+          margin-top: 10px;
+          padding: 10px 22px;
+
+          font-size: 16px;
+      }
+    }
 }
