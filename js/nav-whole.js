@@ -1,7 +1,7 @@
 // var navTxt = getElementsByClassName("nav-txt");
 function w3_open() {
     document.getElementById("main").style.marginRight = "25%";
-    document.getElementById("mySidebar").style.width = "33%";
+    document.getElementById("mySidebar").style.width = "55vw";
     document.getElementById("mySidebar").style.display = "block";
     document.getElementById("openNav").style.display = 'none';
   }

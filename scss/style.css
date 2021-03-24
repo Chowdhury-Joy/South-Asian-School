@@ -123,6 +123,9 @@
         grid-template-rows: minmax(100px, auto);
         grid-template-areas: "left center" "right right";
   }
+  .nav-whole .nav-left .nav-txt {
+    margin-left: 5%;
+  }
   .nav-left {
     -ms-grid-row: 1;
     -ms-grid-column: 1;

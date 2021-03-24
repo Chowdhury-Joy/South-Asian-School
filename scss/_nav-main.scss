@@ -142,7 +142,15 @@ grid-template-columns: 200px 200px;
 grid-template-rows: minmax(100px, auto);
 grid-template-areas: "left center"
                       "right right";
+
+                      .nav-left{
+                        .nav-txt{
+                          margin-left: 5%;
+                        }
+                      }
   }
+
+
   .nav-left{
     grid-area: left;
     }
@@ -155,6 +163,11 @@ grid-template-areas: "left center"
 
     .nav-left{
       margin-left: 20%;
+
+
+      // #mySidebar{
+      //   width: 100%;
+      // }
     }
     .nav-center{
       margin-right: 20%;
