@@ -189,6 +189,24 @@
 
 .banner .bannerTxt .sclnm {
   position: relative;
+  font-size: 80px;
+  text-align: center;
+  width: 600px;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+.banner .bannerTxt #scrldwn02 {
+  width: 20%;
+  background-color: #202020;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+  padding-top: 2px;
+  margin-bottom: 50px;
+}
+
+.banner .bannerTxt .welcome {
+  font-family: 'Lora', serif;
 }
 
 @-webkit-keyframes "bounce01" {
@@ -239,57 +257,6 @@
   position: absolute;
   text-align: center;
   width: 4rem;
-}
-
-@-webkit-keyframes "bounce02" {
-  50% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-}
-
-@keyframes "bounce02" {
-  50% {
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-}
-
-.banner .bannerTxt #scrldwn02 {
-  height: 85vh;
-  position: absolute;
-  top: 10%;
-  width: 100%;
-}
-
-.banner .bannerTxt #scrldwn02::before {
-  -webkit-animation: bounce02 1s ease infinite;
-          animation: bounce02 1s ease infinite;
-  bottom: 2rem;
-  color: #fff;
-  content: '|';
-  font-size: 5rem;
-  height: 4rem;
-  left: 50%;
-  letter-spacing: -1px;
-  line-height: 4rem;
-  margin-left: -3rem;
-  opacity: 0.8;
-  position: absolute;
-  text-align: center;
-  width: 4rem;
-}
-
-.banner .welcome {
-  font-family: 'Lora', serif;
-}
-
-.banner .sclnm {
-  font-size: 80px;
-  text-align: center;
-  width: 600px;
-  font-family: 'Lora', serif;
-  margin: 0;
 }
 
 @media all and (max-width: 1050px) {
@@ -369,27 +336,12 @@
     text-align: center;
     width: 4rem;
   }
-  @-webkit-keyframes "bounce02" {
-    50% {
-      -webkit-transform: translateY(-50%);
-              transform: translateY(-50%);
-    }
-  }
-  @keyframes "bounce02" {
-    50% {
-      -webkit-transform: translateY(-50%);
-              transform: translateY(-50%);
-    }
-  }
-  .banner .bannerTxt #scrldwn02 {
-    display: none;
-  }
-  .banner .welcome {
+  .welcome {
     position: absolute;
     top: 5%;
     font-family: 'Lora', serif;
   }
-  .banner .sclnm {
+  .sclnm {
     position: absolute;
     top: 10%;
     font-size: 50px;
@@ -398,7 +350,7 @@
     font-family: 'Lora', serif;
     margin: 0;
   }
-  .banner .scrlmr {
+  .scrlmr {
     position: absolute;
     top: 25%;
   }
@@ -413,23 +365,20 @@
   }
   .banner img {
     width: 98vw;
+    height: 65vh;
+    -o-object-fit: cover;
+       object-fit: cover;
     opacity: 0.8;
-  }
-  .banner .bannerTxt #scrldwn01 {
-    display: none;
-  }
-  .banner .bannerTxt #scrldwn02 {
-    display: none;
   }
   .banner .bannerTxt .welcome {
     position: absolute;
-    top: 0%;
+    top: 18%;
     font-family: 'Lora', serif;
     font-size: 14px;
   }
   .banner .bannerTxt .sclnm {
     position: absolute;
-    top: 5%;
+    top: 28%;
     font-size: 32px;
     text-align: center;
     width: 300px;
