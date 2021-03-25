@@ -1,25 +1,28 @@
+//!!Banner
+
+
 var tl = gsap.timeline({
 
 });
 
-//!!BANNER
-
-// tl.from('.nav-center', 1, {delay: .2, opacity: 0, x: -20, ease: Expo.easeInOut})
-// .from('.nav-right', 1, {delay: .1, opacity: 0, x: -20, ease: Expo.easeInOut})
-// tl.from('.nav-whole', {opacity: 0,duration: 1, xPercent: -100, stagger: 0.5})
 tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
 .from('#scrldwn01', {opacity: 0,duration: 1, y: -50})
 .from('.scrl-stagger', 2, {opacity: 0, y: 50, ease: Expo.easeInOut, stagger: 0.5},"<")
+
+
 
 //!! CTI or EXPLORE
 
 var tl2 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.cti',
-                    toggleActions: "play pause none reset"
+                    toggleActions: "play pause resume reset"
           }
 });
 tl2.from('.cti-stagger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
+
+
+
 
 //!!Location
 
@@ -46,4 +49,21 @@ ScrollTrigger.create({
           onToggle: self => self.isActive ? playVideo("locationVid") : pauseVideo("locationVid"),
           toggleActions: 'play pause reverse none'
 })
+
+
+
+//!!Stories
+
+
+var tl4 = gsap.timeline({
+          scrollTrigger: {
+                    trigger:'.stories',
+                    toggleActions: "play pause resume reset",
+                    
+          }
+});
+tl4.from('.stories-main', { y: -50, opacity: 0, duration: .8})
+tl4.from('.stories-v-all', { y: -10, opacity: 0, duration: .8}, "<.2")
+tl4.from('.stories-gasp-left', { xPercent: -100, opacity: 0, duration: 1.5})
+tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 1.5}, "<")
 
