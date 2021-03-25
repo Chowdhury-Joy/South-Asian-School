@@ -13,11 +13,37 @@ tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
 
 //!! CTI or EXPLORE
 
-.to(".cti", {
+var tl2 = gsap.timeline({
           scrollTrigger: {
-                    trigger: '.cti-all',
-                    start: "top center",
-                    
-          },
-          y: -50
+                    trigger:'.cti',
+                    toggleActions: "play pause resume reset"
+          }
+});
+tl2.from('.cti-stagger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
+
+//!!Location
+
+function playVideo(el) {
+          let vid = document.getElementById(el);
+          vid.play();
+          console.log('playing video');
+}
+
+function pauseVideo(el) {
+          let vid = document.getElementById(el);
+          vid.pause();
+          console.log('pausing video');
+}
+
+let tl3 = gsap.timeline()
+
+
+ScrollTrigger.create({
+          scrub: true,
+          trigger: '.location',
+          start: 'top 30%',
+          end: '+=500',
+          onToggle: self => self.isActive ? playVideo("locationVid") : pauseVideo("locationVid"),
+          toggleActions: 'play pause reverse none'
 })
+

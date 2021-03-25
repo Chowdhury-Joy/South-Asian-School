@@ -268,7 +268,10 @@
   }
   .banner img {
     width: 98vw;
+    height: 50vh;
     opacity: 0.8;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
   .banner .bannerTxt {
     display: -webkit-box;
@@ -289,6 +292,24 @@
     height: 100vh;
     margin: 0 auto;
     bottom: 10%;
+  }
+  .banner .bannerTxt .welcome {
+    position: absolute;
+    top: 5%;
+    font-family: 'Lora', serif;
+  }
+  .banner .bannerTxt .sclnm {
+    position: absolute;
+    top: 10%;
+    font-size: 50px;
+    text-align: center;
+    width: 400px;
+    font-family: 'Lora', serif;
+    margin: 0;
+  }
+  .banner .bannerTxt .scrlmr {
+    position: absolute;
+    top: 25%;
   }
   @-webkit-keyframes "bounce01" {
     0% {
@@ -336,24 +357,6 @@
     text-align: center;
     width: 4rem;
   }
-  .welcome {
-    position: absolute;
-    top: 5%;
-    font-family: 'Lora', serif;
-  }
-  .sclnm {
-    position: absolute;
-    top: 10%;
-    font-size: 50px;
-    text-align: center;
-    width: 400px;
-    font-family: 'Lora', serif;
-    margin: 0;
-  }
-  .scrlmr {
-    position: absolute;
-    top: 25%;
-  }
 }
 
 @media all and (max-width: 500px) {
@@ -365,7 +368,7 @@
   }
   .banner img {
     width: 98vw;
-    height: 65vh;
+    height: 80vh;
     -o-object-fit: cover;
        object-fit: cover;
     opacity: 0.8;
@@ -465,10 +468,7 @@
 
 @media all and (max-width: 500px) {
   .cti {
-    height: 75vh;
-  }
-  .cti .bar {
-    display: none;
+    height: 85vh;
   }
   .cti .cti-explore {
     font-family: 'Lora', serif;
