@@ -122,6 +122,3 @@ var tl8 = gsap.timeline({
 });
 tl8.from('.apply-left', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
 tl8.from('.apply-right', { xPercent: 100, opacity: 0, duration: 1.5, stagger: 0.5}, "<")
-
-
-
