@@ -16,7 +16,8 @@ tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
 var tl2 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.cti',
-                    toggleActions: "play pause resume reset"
+                    toggleActions: "play pause resume reset",
+                    
           }
 });
 tl2.from('.cti-stagger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
@@ -59,7 +60,7 @@ var tl4 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.stories',
                     toggleActions: "play pause resume reset",
-                    
+                    start: "top 80%"
           }
 });
 tl4.from('.stories-main', { y: -50, opacity: 0, duration: .8})
@@ -74,7 +75,8 @@ tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 2, ease: 
 var tl5 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.learning',
-                    toggleActions: "play pause resume reset"
+                    toggleActions: "play pause resume reset",
+                    start: "top center"
           }
 });
 tl5.from('.learning-left', { xPercent: -100, opacity: 0, duration: 1.95})
@@ -90,7 +92,8 @@ tl5.from('.TBTT', { y: 40, opacity: 0, duration: 2},"<")
 var tl6 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.living',
-                    toggleActions: "play pause resume reset"
+                    toggleActions: "play pause resume reset",
+                    start: "top center"
           }
 });
 tl6.from('.living-left', { xPercent: -100, opacity: 0, duration: 1.95})
@@ -104,7 +107,8 @@ tl6.from('.liv-ri-bot-all', { y: 100, opacity: 0, duration: 1.95}, "<")
 var tl7 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.admission',
-                    toggleActions: "play pause resume reset"
+                    toggleActions: "play pause resume reset",
+                    start: "top 80%"
           }
 });
 tl7.from('.admission-trigger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
