@@ -20,6 +20,15 @@
 .w3-card{
   position: relative;
   top: 12%;
+  .nav-txt{
+    text-decoration: none;
+    &:hover{
+      text-decoration: line-through;
+      // background-color: transparent;
+      color: #E77E1C;
+      
+    }
+  }
 }
 
     }
@@ -50,6 +59,7 @@ text-align: center;
         a{
           text-decoration: none;
           color: #000;
+
         }
         .nav-btn-01 {
         }

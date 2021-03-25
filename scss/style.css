@@ -31,6 +31,15 @@
   top: 12%;
 }
 
+.nav-whole .nav-left .w3-card .nav-txt {
+  text-decoration: none;
+}
+
+.nav-whole .nav-left .w3-card .nav-txt:hover {
+  text-decoration: line-through;
+  color: #E77E1C;
+}
+
 .nav-whole .nav-center .nav-centar-all {
   text-align: center;
 }

@@ -1,4 +1,4 @@
-//!!Banner
+//!!Banner.....................
 
 
 var tl = gsap.timeline({
@@ -11,7 +11,7 @@ tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
 
 
 
-//!! CTI or EXPLORE
+//!! CTI or EXPLORE.....................
 
 var tl2 = gsap.timeline({
           scrollTrigger: {
@@ -24,7 +24,7 @@ tl2.from('.cti-stagger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0
 
 
 
-//!!Location
+//!!Location...................
 
 function playVideo(el) {
           let vid = document.getElementById(el);
@@ -52,7 +52,7 @@ ScrollTrigger.create({
 
 
 
-//!!Stories
+//!!Stories....................
 
 
 var tl4 = gsap.timeline({
@@ -64,6 +64,22 @@ var tl4 = gsap.timeline({
 });
 tl4.from('.stories-main', { y: -50, opacity: 0, duration: .8})
 tl4.from('.stories-v-all', { y: -10, opacity: 0, duration: .8}, "<.2")
-tl4.from('.stories-gasp-left', { xPercent: -100, opacity: 0, duration: 1.5})
-tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 1.5}, "<")
+tl4.from('.stories-gasp-left', { xPercent: -100, opacity: 0, duration: 2, ease: "back.out(2.5)"})
+tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 2, ease: "back.out(2.5)"}, "<")
+
+
+//!!learning..................
+
+
+var tl5 = gsap.timeline({
+          scrollTrigger: {
+                    trigger:'.learning',
+                    toggleActions: "play pause resume reset",
+                    
+          }
+});
+tl5.from('.learning-left', { xPercent: -100, opacity: 0, duration: 1.95})
+tl5.from('.learning-right', { xPercent: 100, opacity: 0, duration: 2.1}, "<")
+tl5.from('.learningTxt', { y: 40, opacity: 0, duration: 2})
+tl5.from('.TBTT', { y: 40, opacity: 0, duration: 2},"<")
 
