@@ -16,7 +16,7 @@ tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
 var tl2 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.cti',
-                    toggleActions: "play pause resume reset"
+                    toggleActions: "play pause none reset"
           }
 });
 tl2.from('.cti-stagger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})

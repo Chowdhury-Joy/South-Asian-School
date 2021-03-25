@@ -375,13 +375,13 @@
   }
   .banner .bannerTxt .welcome {
     position: absolute;
-    top: 18%;
+    top: 15%;
     font-family: 'Lora', serif;
     font-size: 14px;
   }
   .banner .bannerTxt .sclnm {
     position: absolute;
-    top: 28%;
+    top: 24%;
     font-size: 32px;
     text-align: center;
     width: 300px;
