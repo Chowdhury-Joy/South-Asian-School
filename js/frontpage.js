@@ -74,8 +74,7 @@ tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 2, ease: 
 var tl5 = gsap.timeline({
           scrollTrigger: {
                     trigger:'.learning',
-                    toggleActions: "play pause resume reset",
-                    
+                    toggleActions: "play pause resume reset"
           }
 });
 tl5.from('.learning-left', { xPercent: -100, opacity: 0, duration: 1.95})
@@ -83,3 +82,18 @@ tl5.from('.learning-right', { xPercent: 100, opacity: 0, duration: 2.1}, "<")
 tl5.from('.learningTxt', { y: 40, opacity: 0, duration: 2})
 tl5.from('.TBTT', { y: 40, opacity: 0, duration: 2},"<")
 
+
+
+//!!Living......................
+
+
+var tl6 = gsap.timeline({
+          scrollTrigger: {
+                    trigger:'.living',
+                    toggleActions: "play pause resume reset"
+          }
+});
+tl6.from('.living-left', { xPercent: -100, opacity: 0, duration: 1.95})
+tl6.from('.living-right', { xPercent: 100, opacity: 0, duration: 1.95}, "<")
+tl6.from('.liv-ri-top-all', { y: 100, opacity: 0, duration: 1.95})
+tl6.from('.liv-ri-bot-all', { y: 100, opacity: 0, duration: 1.95}, "<")
