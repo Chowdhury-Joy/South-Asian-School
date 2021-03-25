@@ -373,15 +373,18 @@
        object-fit: cover;
     opacity: 0.8;
   }
+  .banner .bannerTxt #scrldwn01 {
+    height: 10vh;
+  }
   .banner .bannerTxt .welcome {
     position: absolute;
-    top: 15%;
+    top: 12%;
     font-family: 'Lora', serif;
     font-size: 14px;
   }
   .banner .bannerTxt .sclnm {
     position: absolute;
-    top: 24%;
+    top: 20%;
     font-size: 32px;
     text-align: center;
     width: 300px;
@@ -389,7 +392,8 @@
     margin: 0;
   }
   .banner .bannerTxt .scrlmr {
-    display: none;
+    position: absolute;
+    top: 42%;
   }
 }
 
