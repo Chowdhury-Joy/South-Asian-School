@@ -97,3 +97,31 @@ tl6.from('.living-left', { xPercent: -100, opacity: 0, duration: 1.95})
 tl6.from('.living-right', { xPercent: 100, opacity: 0, duration: 1.95}, "<")
 tl6.from('.liv-ri-top-all', { y: 100, opacity: 0, duration: 1.95})
 tl6.from('.liv-ri-bot-all', { y: 100, opacity: 0, duration: 1.95}, "<")
+
+
+//!! Admission.....................
+
+var tl7 = gsap.timeline({
+          scrollTrigger: {
+                    trigger:'.admission',
+                    toggleActions: "play pause resume reset"
+          }
+});
+tl7.from('.admission-trigger', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
+tl7.from('.admission-btn', { yPercent: 50, opacity: 0, duration: 1.5, stagger: 0.5})
+
+
+
+//!! Apply.....................
+
+var tl8 = gsap.timeline({
+          scrollTrigger: {
+                    trigger:'.apply',
+                    toggleActions: "play pause resume reset"
+          }
+});
+tl8.from('.apply-left', { xPercent: -100, opacity: 0, duration: 1.5, stagger: 0.5})
+tl8.from('.apply-right', { xPercent: 100, opacity: 0, duration: 1.5, stagger: 0.5}, "<")
+
+
+
