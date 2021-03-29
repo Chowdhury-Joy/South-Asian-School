@@ -1,0 +1,259 @@
+//!! S-Admission banner.....................
+  .s-adm-ban {
+    position: relative;
+    overflow: hidden;
+    img {
+              max-width: 99vw;
+              opacity: 0.9;
+    }
+    .s-adm-ban-hamburger {
+      position: absolute;
+      top: 10%;
+      left: 10%;
+      z-index: 5;
+      .nav-txt{
+        font-family: 'Lora', serif;
+        font-size: 40px;
+        margin-right: 20%;
+      }
+      
+      .w3-card{
+        position: relative;
+        top: 0%;
+        left: 0%;
+        .nav-txt{
+          text-decoration: none;
+          text-align: center;
+          &:hover{
+            text-decoration: line-through;
+            // background-color: transparent;
+            color: #E77E1C;
+            
+          }
+        }
+      }
+
+    }
+    .s-adm-ban-all {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      width: 100vw;
+      // height: 100vh;
+      // margin: 0 auto;
+      top:10%;
+      color: #0A172E;
+      >*{
+        margin-bottom: 50px;
+      }
+
+      img {
+        opacity: 0.6;
+      }
+      .s-adm-ban-bar {
+        width: 5%;
+        background-color: rgb(32, 32, 32);
+        transform: rotate(90deg);
+        //  text-align: left;
+        padding-top: 1px;
+        // color: rgb(8, 6, 6);
+        margin-bottom: 50px;
+      }
+      .s-adm-ban-bar-tit {
+                font-size: 20px;
+                opacity: 0.8;
+      }
+      .s-adm-ban-bar-long-tit {
+        font-size: 80px;
+        width: 70%;
+        font-family: 'Tinos', sarif;
+        text-align: center;
+        letter-spacing: 8px;
+      }
+      .s-adm-ban-bar2 {
+        width: 5%;
+        background-color: rgb(32, 32, 32);
+        transform: rotate(90deg);
+        //  text-align: left;
+        padding-top: 1px;
+        // color: rgb(8, 6, 6);
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+
+//!!..........S-ADM...................................
+  
+
+  .s-adm {
+    height: 100vh;
+
+
+    
+    display: flex;
+    .s-adm-left {
+      width: 100%;
+      position: relative;
+      // order: 1;
+      .s-adm-left-img {
+        display: block;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .s-adm-right {
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+
+      //??txt beside image....................
+          .t13{
+          background-color: #0A172E;
+          }
+          .t6{
+          background-color: #8F4545;
+          }
+          .entrance{
+          background-color: #0A172E;
+          }
+          .sport{
+          background-color: #fff;
+          color: #0A172E;
+          }
+          .contact{
+            background-color: #232C41;
+            }
+
+      .s-adm-right-all {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+      > *{
+          margin: 20px 0;
+      }
+        .s-adm-right-bar {
+          width: 10%;
+          background-color: #ddd;
+            transform: rotate(90deg);
+          //  text-align: left;
+            padding-top: 1px;
+            color: white;
+            margin-bottom: 50px;
+        }
+        .s-adm-right-tit {
+          font-family: 'Tinos', serif;
+          font-size: 40px;
+          width: 60%;
+          text-align: center;
+        }
+        .s-adm-right-des {
+          font-family: 'Tinos', serif;
+          font-size: 17px;
+          width: 60%;
+          text-align: center;
+          line-height: 35px;
+        }
+        .s-adm-right-btn {
+          font-family: 'Lora', serif;
+          // font-weight: 800;
+          letter-spacing: 5px;
+        }
+      }
+    }
+  }
+
+
+
+//!! Fees-Bursaries
+  
+
+  .fees-bursaries {
+    display: flex;
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: center;
+    background-color: #EBE2E2;
+    .fees {
+      width: 45% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      >*{
+        margin-bottom: 20px;
+      }
+      .fees-bar {
+        width: 15%;
+        background-color: rgb(32, 32, 32);
+        transform: rotate(90deg);
+        //  text-align: left;
+        padding-top: 1px;
+        // color: rgb(8, 6, 6);
+        margin-bottom: 50px;
+        display: inline-block;
+      }
+      .fees-tit {
+        font-size: 40px;
+        font-family: 'Lora', sarif;
+      }
+      .fees-des {
+        width:500px;
+        text-align: center;
+        font-family: 'Tinos', serif;
+        font-size: 17px;
+        line-height: 28px;
+      }
+      .fees-btn {
+        font-family: 'Tinos',serif;
+      }
+    }
+    hr {
+      width: 10%;
+      height: 60vh;
+      opacity: 0.3;
+    }
+    .bursaries {
+      width: 45% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      >*{
+        margin-bottom: 20px;
+      }
+      .bursaries-bar {
+        width: 15%;
+        background-color: rgb(32, 32, 32);
+        transform: rotate(90deg);
+        padding-top: 1px;
+        margin-bottom: 50px;
+        display: inline-block;
+      }
+      .bursaries-tit {
+        font-size: 40px;
+        font-family: 'Lora', sarif;
+      }
+      .bursaries-des {
+        width:500px;
+        text-align: center;
+        font-family: 'Tinos', serif;
+        font-size: 17px;
+        line-height: 28px;
+      }
+      .bursaries-btn {
+        font-family: 'Tinos',serif;
+      }
+    }
+  }

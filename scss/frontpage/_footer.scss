@@ -65,6 +65,22 @@
 
         .footer-part-01{
           max-width: 90vw;
+
+          .footer-part-01-des {
+            .foo-pa-01-head {
+              font-size: 20px;
+            }
+            .foo-pa-01-body {
+            }
+            .foo-pa-01-title {
+                font-size: 24px;  //??scl name
+            }
+            .foo-pa-01-slogan {
+            }
+            .foo-pa-01-body-option {
+              opacity: 0.7;
+            }
+          }
         }
         .footer-part-02{
           max-width: 90vw;

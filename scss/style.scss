@@ -1,6 +1,14 @@
 @import 'nav-main';
 @import './frontpage/frontpage';
+@import './subpage/subpage';
 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
 *{
     box-sizing: border-box;
     font-family: 'Open Sans', sans-serif;

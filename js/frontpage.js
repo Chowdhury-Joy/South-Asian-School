@@ -2,10 +2,8 @@
 
 
 var tl = gsap.timeline({
-scrollTrigger: {
-          trigger: '.banner',
-          toggleActions: "play pause resume reset",
-}
+
+
 });
 
 tl.from('.bannerImg', {opacity: 0,duration: 1, xPercent: -100})
