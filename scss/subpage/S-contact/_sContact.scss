@@ -1,0 +1,242 @@
+.s-cont-ban {
+  .s-cont-ban-hamburger {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    z-index: 5;
+    .nav-txt{
+      font-family: 'Lora', serif;
+      font-size: 40px;
+      margin-right: 20%;
+    }
+    
+    .w3-card{
+      position: relative;
+      top: 0%;
+      left: 0%;
+      .nav-txt{
+        text-decoration: none;
+        text-align: center;
+        &:hover{
+          text-decoration: line-through;
+          // background-color: transparent;
+          color: #E77E1C;
+          
+        }
+      }
+    }
+  }
+  .s-cont-ban-header {
+            height: 100%;
+            background-color: #fff;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+>*{
+margin-bottom: 40px;
+}
+            img {
+              position: relative;
+              top: 4em;
+        }
+        .s-cont-ban-tit {
+          font-size: 20px;
+          opacity: 0.8;
+          margin-top: 10px;
+        }
+        .s-cont-ban-big-tit {
+          font-size: 80px;
+          width: 70%;
+          font-family: 'Tinos', sarif;
+          text-align: center;
+          letter-spacing: 8px;
+        }
+        .s-cont-ban-bar {
+          width: 5%;
+          background-color: #202020;
+          transform: rotate(90deg);
+          padding-top: 1px;
+          margin-top: 80px;
+        }
+        .s-cont-ban-bar2 {
+          width: 5%;
+          background-color: #202020;
+          transform: rotate(90deg);
+          padding-top: 1px;
+        }
+  }
+}
+
+
+
+.s-cont-intro {
+  height: 50vh;
+  background-color: #EBE2E2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  
+  .s-cont-intro-1 {
+    font-family: 'Tinos', sarif;
+    font-size: 20px;
+    margin-bottom: 20px;
+    width: 70%;
+    text-align: center;
+  }
+  .s-cont-intro-2 {
+    font-family: 'Tinos', sarif;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+
+
+//!!............S-cont-form starts.........................
+
+
+
+.s-cont-form{
+  margin: 100px 0;
+  .s-cont-accordion {
+    margin-bottom: 50px;
+    .s-cont-accordion-item {
+      border-bottom: 1px solid #e5e5e5;
+      margin: 0 auto;
+      width: 85%;
+      button[aria-expanded=true] {
+        border-bottom: 1px solid #162238;
+      }
+    }
+    button {
+      position: relative;
+      display: block;
+      text-align: left;
+      width: 100%;
+      padding: 1em 0;
+      color: #7288a2;
+      font-size: 1.15rem;
+      font-weight: 400;
+      border: none;
+      background: none;
+      outline: none;
+      &:hover {
+        cursor: pointer;
+        &::after {
+          cursor: pointer;
+          color: #162238;
+          border: 1px solid #162238;
+        }
+      }
+      &:focus {
+        cursor: pointer;
+        &::after {
+          cursor: pointer;
+          color: #162238;
+          border: 1px solid #162238;
+        }
+      }
+      .s-cont-accordion-title {
+        padding: 1em 1.5em 1em 0;
+        color: #000;
+        font-family: 'Tinos', serif;
+        letter-spacing: 2px;
+        font-weight: 600;
+      }
+      .icon {
+        display: inline-block;
+        position: absolute;
+        top: 18px;
+        right: 0;
+        width: 22px;
+        height: 22px;
+        border: 1px solid;
+        border-radius: 22px;
+        color: #000;
+        &::before {
+          display: block;
+          position: absolute;
+          content: "";
+          top: 9px;
+          left: 5px;
+          width: 10px;
+          height: 2px;
+          background: currentColor;
+        }
+        &::after {
+          display: block;
+          position: absolute;
+          content: "";
+          top: 5px;
+          left: 9px;
+          width: 2px;
+          height: 10px;
+          background: currentColor;
+        }
+      }
+    }
+    button[aria-expanded=true] {
+      color: #162238;
+      .icon {
+        &::after {
+          width: 0;
+        }
+      }
+      + {
+        .s-cont-accordion-content {
+          opacity: 1;
+          max-height: 100%;
+          transition: all 200ms linear;
+          will-change: opacity, max-height;
+          margin: 50px 0;
+
+          .w3-row-padding{
+              label{
+                font-family: 'Kiwi Maru', serif;
+                opacity: 0.8;
+                font-size: 15px;
+                line-height: 26px;
+              }
+            .s-cont-accordion-msg{
+              height: 50vh;
+              width: 100%;
+              margin-top: 10px;
+            }
+            .w3-third{
+              label{
+                font-family: 'Kiwi Maru', serif;
+                opacity: 0.8;
+                font-size: 15px;
+                line-height: 26px;
+              }
+              .w3-input{
+                height: 50px;
+                background-color:#f8f8f8;
+                margin-top: 10px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .s-cont-accordion-content {
+      opacity: 0;
+      max-height: 0;
+      overflow: hidden;
+      transition: opacity 200ms linear, max-height 0ms linear;
+      will-change: opacity, max-height;
+    }
+  }
+  .s-cont-submit{
+    font-family: 'Tinos', sarif;
+    font-weight: 600;
+    position: absolute;
+    right: 10%;
+    letter-spacing: 2px;
+  }
+}
+
+
+  

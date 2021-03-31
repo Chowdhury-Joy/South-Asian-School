@@ -1,0 +1,85 @@
+@media all and (max-width: 500px){
+          .s-cont-ban {
+          .s-cont-ban-hamburger {
+                    position: absolute;
+                    top: 10%;
+                    left: 5%;
+                    z-index: 5;
+                    .nav-txt{
+                    font-family: 'Lora', serif;
+                    font-size: 40px;
+                    margin-right: 20%;
+                    }
+                    
+                    .w3-card{
+                    position: relative;
+                    top: 0%;
+                    left: 0%;
+                    .nav-txt{
+                    text-decoration: none;
+                    text-align: center;
+                    &:hover{
+                    text-decoration: line-through;
+                    // background-color: transparent;
+                    color: #E77E1C;
+                    
+                    }
+                    }
+                    }
+          }
+          .s-cont-ban-header {
+                    height: 100%;
+                    background-color: #fff;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+          >*{
+          margin-bottom: 20px;
+          }
+                    img {
+                              position: relative;
+                              top: 4em;
+                    }
+                    .s-cont-ban-tit {
+                    font-size: 20px;
+                    opacity: 0.8;
+                    margin-top: 10px;
+                    }
+                    .s-cont-ban-big-tit {
+                    font-size: 40px;
+                    width: 85%;
+                    }
+          
+          }
+          }
+                    
+                    
+          
+          .s-cont-intro {
+          height: 50vh;
+          background-color: #EBE2E2;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: flex-start;
+          
+          
+          .s-cont-intro-1 {
+                    font-family: 'Tinos', sarif;
+                    font-size: 18px;
+                    margin-bottom: 20px;
+                    width: 90%;
+                    text-align: start;
+                    margin: 0 auto;
+          }
+          .s-cont-intro-2 {
+                    font-family: 'Tinos', sarif;
+                    font-size: 18px;
+                    width: 90%;
+                    text-align: justify;
+                    margin: 0 auto;
+          }
+          }
+          }
+          
