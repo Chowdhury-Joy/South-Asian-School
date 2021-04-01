@@ -66,8 +66,8 @@ var tl4 = gsap.timeline({
 });
 tl4.from('.stories-main', { y: -50, opacity: 0, duration: .8})
 tl4.from('.stories-v-all', { y: -10, opacity: 0, duration: .8}, "<.2")
-tl4.from('.stories-gasp-left', { xPercent: -100, opacity: 0, duration: 2, ease: "back.out(2.5)"})
-tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 2, ease: "back.out(2.5)"}, "<")
+tl4.from('.stories-gasp-left', { xPercent: -100, opacity: 0, duration: 2, ease: "Expo.EaseInOut"})
+tl4.from('.stories-gasp-right', { xPercent: 100, opacity: 0, duration: 2, ease: "Expo.EaseInOut"}, "<")
 
 
 //!!learning..................
