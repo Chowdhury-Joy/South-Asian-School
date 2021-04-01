@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Sign</title>
+          <link rel="stylesheet" href="./scss/style.css">
+          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+          <script src="https://kit.fontawesome.com/71c0e1c100.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="s-log-ban">
+          <div class="s-log-ban-hamburger">            
+                    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+                              <button class="w3-bar-item w3-button w3-large nav-close"
+                              onclick="w3_close()"><i class="fas fa-times"></i></button>
+                              <a href="index.html" class="w3-bar-item nav-txt">HOME</a>
+                              <a href="#" class="w3-bar-item nav-txt">EXPLORE</a>
+                              <a href="#" class="w3-bar-item nav-txt">LEARNING</a>
+                              <a href="#" class="w3-bar-item nav-txt">LIVING</a>
+                              <a href="#" class="w3-bar-item nav-txt">ADMISSIONS</a>
+                              <a href="#" class="w3-bar-item nav-txt">COMMUNITY</a>
+                    </div>
+
+                              <div id="main">
+                              
+                              <div class="w3-gray">
+                                        <button id="openNav" class="w3-button w3-hover-none w3-xlarge" onclick="w3_open()"><i class="fas fa-bars"></i></button>
+                              </div>
+                              </div>
+          </div>
+          <script src="./js/nav-ham.js"></script>
+          <div class="s-log-ban-header">
+                    <img src="./image/logo.png" alt="">
+          </div>
+</section>
+
+
+
+<!--!!..................... Form will be here........................  -->
+
+<div class="s-log-hero">
+    <div class="s-log-form-box">
+        <div class="s-log-button-box">
+            <div id="s-log-btn"></div>
+            <button type="button" class="s-log-toggle-btn" onclick="login()">Log in</button>
+            <button type="button" class="s-log-toggle-btn" onclick="register()">Sign up</button>
+        </div>
+
+    <form action="get" id="login" class="s-log-input-group">
+        <input type="text" class="s-log-input-field" placeholder="User Id" required>
+        <input type="password" class="s-log-input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="s-log-check-box"> <span>Remember Password</span>
+        <button type="submit" class="s-log-submit-button">Login</button>
+    </form>
+
+    <form action="post" id="register" class="s-log-input-group">
+        <input type="text" class="s-log-input-field" placeholder="User Id" required>
+        <input type="email" class="s-log-input-field" placeholder="Email" required>
+        <input type="password" class="s-log-input-field" placeholder="Enter Password" required>
+        <input type="checkbox" class="s-log-check-box"> <span>I agree to the terms and condition</span>
+        <button type="submit" class="s-log-submit-button">Register</button>
+    </form>
+</div>
+</div>
+
+<script src="./js/s-log.js"></script>
+
+<!--!!.......... Footer starts from here............... -->
+
+
+<section class="footer">
+          <article class="footer-part-01">
+              <main class="footer-part-01-des">
+                  <div class="foo-pa-01-title kanit">
+                      South Asian School
+                  </div>
+                  <div class="foo-pa-01-slogan kanit">
+                      Chittagong, Bangladesh
+                  </div>
+              </main>
+              <main class="footer-part-01-des">
+                  <div class="foo-pa-01-head kanit">
+                      CONTACT US
+                  </div>
+                  <div class="foo-pa-01-body">
+                      <p class="foo-pa-01-body-option kanit">General Enquiries</p>
+                      <p class="foo-pa-01-body-option kanit">Contact Admissions</p>
+                      <p class="foo-pa-01-body-option kanit">Virtual Open Days</p>
+                      <p class="foo-pa-01-body-option kanit">Contact Details</p>
+                  </div>
+              </main>
+              <main class="footer-part-01-des">
+                  <div class="foo-pa-01-head kanit">
+                                 DIARIES </div>
+                  <div class="foo-pa-01-body">
+                      <p class="foo-pa-01-body-option kanit">Term Date</p>
+                      <p class="foo-pa-01-body-option kanit">School Calendar</p>
+                      <p class="foo-pa-01-body-option kanit">Sport Fixtures</p>
+                  </div>
+              </main>
+              <main class="footer-part-01-des">
+                  <div class="foo-pa-01-head kanit">
+                      FOR THE PUBLIC
+                  </div>
+                  <div class="foo-pa-01-body">
+                      <p class="foo-pa-01-body-option kanit">How To Find Us</p>
+                      <p class="foo-pa-01-body-option kanit">School Map</p>
+                      <p class="foo-pa-01-body-option kanit">Visit Us</p>
+                      <p class="foo-pa-01-body-option kanit">Sports Club</p>
+                  </div>
+              </main>
+      
+          </article>
+      <br> <br> <br>
+          <article class="footer-part-02">
+                  <main class="foo-social">
+                      <img src="./image/instagram.svg" alt="">
+                      <img src="./image/twitter.svg" alt="">
+                      <img src="./image/linkedin.svg" alt="">
+                      <img src="./image/facebook.svg" alt="">
+                  </main>
+          </article> <hr></hr>
+          
+          <article class="footer-part-03">
+              <main class="footer-part-03-left kanit">&#169; 2021 | All Rights Reserve
+              </main>
+              <main class="footer-part-03-right kanit">Privacy | Parental Portal | Terms | Cookies
+              </main>
+          </article>
+      </section>
+
+</body>
+</html>

@@ -3,6 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Tinos&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900");
 .nav-whole {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3057,7 +3058,7 @@
   line-height: 26px;
 }
 
-.s-cont-form .s-cont-accordion button[aria-expanded=true] + .s-cont-accordion-content .w3-row-padding .w3-third .w3-input {
+.s-cont-form .s-cont-accordion button[aria-expanded=true] + .s-cont-accordion-content .w3-row-padding .w3-third .w3-input, .s-cont-form .s-cont-accordion button[aria-expanded=true] + .s-cont-accordion-content .w3-row-padding .w3-third .w3-select {
   height: 50px;
   background-color: #f8f8f8;
   margin-top: 10px;
@@ -3259,6 +3260,153 @@
     text-align: justify;
     margin: 0 auto;
   }
+}
+
+.s-log-ban .s-log-ban-hamburger {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  z-index: 5;
+}
+
+.s-log-ban .s-log-ban-hamburger .nav-txt {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  margin-right: 20%;
+}
+
+.s-log-ban .s-log-ban-hamburger .w3-card {
+  position: relative;
+  top: 0%;
+  left: 0%;
+}
+
+.s-log-ban .s-log-ban-hamburger .w3-card .nav-txt {
+  text-decoration: none;
+  text-align: center;
+}
+
+.s-log-ban .s-log-ban-hamburger .w3-card .nav-txt:hover {
+  text-decoration: line-through;
+  color: #E77E1C;
+}
+
+.s-log-ban .s-log-ban-header {
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.s-log-ban .s-log-ban-header img {
+  margin-top: 4em;
+}
+
+.s-log-hero {
+  height: 100%;
+  width: 100%;
+}
+
+.s-log-hero .s-log-form-box {
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: #302a25;
+  padding: 5px;
+  overflow: hidden;
+}
+
+.s-log-hero .s-log-form-box #login {
+  left: 50px;
+}
+
+.s-log-hero .s-log-form-box #register {
+  left: 450px;
+}
+
+.s-log-hero .s-log-form-box .s-log-button-box {
+  width: 220px;
+  margin: 35px auto;
+  position: relative;
+  -webkit-box-shadow: 0 0 20px 9px #ff61241f;
+          box-shadow: 0 0 20px 9px #ff61241f;
+}
+
+.s-log-hero .s-log-form-box .s-log-button-box #s-log-btn {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: -webkit-gradient(linear, left top, right top, from(#ff105f), to(#ffad06));
+  background: linear-gradient(to right, #ff105f, #ffad06);
+  border-radius: 30px;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.s-log-hero .s-log-form-box .s-log-button-box .s-log-toggle-btn {
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+.s-log-hero .s-log-input-group {
+  top: 180px;
+  position: absolute;
+  width: 280px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: #fff;
+}
+
+.s-log-hero .s-log-input-group .s-log-input-field {
+  width: 100%;
+  padding: 10px 0;
+  margin: 5px 0;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid #999;
+  border-left: 0;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+.s-log-hero .s-log-input-group .s-log-check-box {
+  margin: 30px 10px 30px 0;
+}
+
+.s-log-hero .s-log-input-group span {
+  color: #777;
+  font-size: 12px;
+  bottom: 68px;
+}
+
+.s-log-hero .s-log-input-group .s-log-submit-button {
+  width: 85%;
+  padding: 10px 30px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  border: 0;
+  outline: none;
+  border-radius: 30px;
+  background: #ff105f;
 }
 
 * {
