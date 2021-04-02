@@ -4,9 +4,9 @@
     margin: 0 auto;
     
 //?? Styling image
-    img{
+    .bannerImg{
         width: 98vw;
-        opacity: 0.8;
+        opacity: 0;
     }
 
     .bannerTxt{
@@ -20,6 +20,10 @@
         margin: 0 auto;
         top:10%;
         overflow: hidden;
+
+        .welcome, .scrldwn02, .sclnm, .scrlmr {
+            opacity: 0;
+        }
 
         .sclnm{
             position: relative;
@@ -74,6 +78,7 @@
             position: absolute;
             top:10%;
             width: 100%;
+            opacity: 0;
             &::before {
                 animation: bounce01 1s ease infinite;
                 // bottom: 2rem;

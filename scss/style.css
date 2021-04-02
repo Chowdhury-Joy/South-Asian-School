@@ -176,9 +176,9 @@
   margin: 0 auto;
 }
 
-.banner img {
+.banner .bannerImg {
   width: 98vw;
-  opacity: 0.8;
+  opacity: 0;
 }
 
 .banner .bannerTxt {
@@ -201,6 +201,10 @@
   margin: 0 auto;
   top: 10%;
   overflow: hidden;
+}
+
+.banner .bannerTxt .welcome, .banner .bannerTxt .scrldwn02, .banner .bannerTxt .sclnm, .banner .bannerTxt .scrlmr {
+  opacity: 0;
 }
 
 .banner .bannerTxt .sclnm {
@@ -256,6 +260,7 @@
   position: absolute;
   top: 10%;
   width: 100%;
+  opacity: 0;
 }
 
 .banner .bannerTxt #scrldwn01::before {
